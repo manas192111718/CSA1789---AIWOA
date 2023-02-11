@@ -1,0 +1,6 @@
+takes(jane_doe, his201).
+takes(jane_doe, cs245).
+takes(ajit_chandra, art?02).
+takes(ajit_chandra, cs254).
+classmates(X, Y) :-
+taxes(X, Z), takes(Y, Z)
