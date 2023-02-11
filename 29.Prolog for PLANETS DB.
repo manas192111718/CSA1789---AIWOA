@@ -1,0 +1,9 @@
+orbits(mercurë, sun).
+orbits(venus. sun).
+orbits (eart, sun).
+orbits (mars, sun).
+orbits(moon, earth).
+orbits (phobos, mars).
+orbits (deimos, mars).
+planet(P) .- orbits(P,sun).
+sate¹lite(S) - orbits(S,P), planet¸P).
